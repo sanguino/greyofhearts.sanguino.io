@@ -1,0 +1,280 @@
+/*
+
+	########   #######   ######  
+	##     ## ##     ## ##    ## 
+	##     ## ##     ## ##       
+	##     ## ##     ## ##       
+	##     ## ##     ## ##       
+	##     ## ##     ## ##    ## 
+	########   #######   ###### 
+
+*/
+
+#oldie
+{
+	width: 100%;
+	text-align: center !important;
+
+}
+
+#webgl-error-message{
+	position: relative;
+	width: 500px;
+	display: block;
+	margin: 50px auto;
+
+}
+
+.movilWebGl
+{
+	width: 300px !important;
+}
+
+
+#webgl-error-message td{
+	padding: 20px;
+}
+
+#webgl-error-message h1{
+	font-size: 16px;
+	font-weight: 200px;
+}
+
+
+#webgl-error-message a{
+	width: 170px;
+	height: 30px;
+	display: block;
+	padding-top: 10px;
+	border:solid 2px #fff;
+	font-size: 14px;
+	font-weight: 400;
+	color: #faf4f2;
+	text-align: center;
+	text-decoration: none;
+	margin:20px auto auto;
+}
+
+.doc{
+	background: url('../img/detector.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:140px;
+	height:140px;
+	border-radius: 50%;
+	border: 3px solid rgba(255,255,255,1);
+	margin: auto auto;
+}
+
+
+/*
+ ______   __  __  ______  ____    _____      
+/\__  _\ /\ \/\ \/\__  _\/\  _`\ /\  __`\    
+\/_/\ \/ \ \ `\\ \/_/\ \/\ \ \L\ \ \ \/\ \   
+   \ \ \  \ \ , ` \ \ \ \ \ \ ,  /\ \ \ \ \  
+    \_\ \__\ \ \`\ \ \ \ \ \ \ \\ \\ \ \_\ \ 
+    /\_____\\ \_\ \_\ \ \_\ \ \_\ \_\ \_____\
+    \/_____/ \/_/\/_/  \/_/  \/_/\/ /\/_____/
+
+*/
+
+#intro{
+	display: block;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	width: 600px;
+	height: 600px;
+	margin-left: -300px;
+	text-align: center;
+	z-index: 3;
+	display: none;
+}
+
+
+.enviar{
+	display: block;
+	width: 250px;
+	background: #fff;
+	color: #392a34;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 400;
+	cursor: pointer;
+	-webkit-appearance: none;
+	border: none;
+	margin: 25px auto;
+}
+
+#introMovil
+{
+	width: 300px;
+	text-align: center;
+	height: 250px;
+	top:50%;
+	left: 50%;
+	margin: -125px -150px;
+	position: absolute;
+	display: none;
+	z-index: 2;
+}
+
+#introMovil p
+{
+	padding: 0;
+	width: 250px;
+	margin: 25px;
+}
+
+#intro h1{
+	position: absolute;
+	font-weight: 200;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.t1{
+	margin-left: 100px;
+}
+
+.t2{
+	margin-left: 234px;
+}
+
+.t3{
+	margin-left: 350px;
+}
+
+.t4{
+	top: 33px;
+	margin-left: 100px;
+}
+
+
+
+.t5{
+	/*top: 100px;*/
+	margin-left: 120px;
+}
+
+
+.t6{
+	/*top: 100px;*/
+	margin-left: 231px;
+}
+
+
+.t7{
+	/*top: 100px;*/
+	margin-left: 324px;
+}
+
+.t8{
+	top: 33px;
+	margin-left: 100px;
+}
+
+.t9{
+	/*top: 66px;*/
+	margin-left: 169px;
+}
+
+.t10{
+	/*top: 66px;*/
+	margin-left: 288px;
+}
+
+
+
+.t11{
+	/*top: 120px;*/
+	margin-left: 0px;
+}
+
+
+/* 
+
+ ____    ____    ____    __       _____   ______  ____      
+/\  _`\ /\  _`\ /\  _`\ /\ \     /\  __`\/\  _  \/\  _`\    
+\ \ \L\ \ \ \L\ \ \ \L\_\ \ \    \ \ \/\ \ \ \L\ \ \ \/\ \  
+ \ \ ,__/\ \ ,  /\ \  _\L\ \ \  __\ \ \ \ \ \  __ \ \ \ \ \ 
+  \ \ \/  \ \ \\ \\ \ \L\ \ \ \L\ \\ \ \_\ \ \ \/\ \ \ \_\ \
+   \ \_\   \ \_\ \_\ \____/\ \____/ \ \_____\ \_\ \_\ \____/
+    \/_/    \/_/\/ /\/___/  \/___/   \/_____/\/_/\/_/\/___/ 
+    
+*/
+
+#preload{
+	position: absolute;
+	width: 200px;
+	top: 50%;
+	left: 50%;
+	margin-left: -100px;
+	margin-top: -70px;
+	
+	-webkit-animation: escala 1.2s infinite ease-out;
+	-webkit-transform-origin: center top;
+	
+	-moz-animation: escala 1.2s infinite ease-out;
+	-moz-transform-origin: center top;
+	
+	animation: escala 1.2s infinite ease-out;
+	transform-origin: center top;
+}
+
+#preload path{
+	stroke: red;
+	fill: none;
+	stroke-width:2;
+	/*stroke-dasharray: 20;
+	
+	-webkit-animation: dash 1s infinite ease-out;
+	-moz-animation: dash 1s infinite ease-out;
+	animation: dash 1s infinite ease-out;
+	*/
+}
+
+
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
+
+@-moz-keyframes dash {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
+
+
+@-webkit-keyframes escala {
+  0% {-webkit-transform: scale(1)}
+  60% {-webkit-transform: scale(1.1)}
+  70% {-webkit-transform: scale(.9)}
+  90% {-webkit-transform: scale(1.1)}
+  100% {-webkit-transform: scale(1)}
+}
+
+@-moz-keyframes escala {
+  0% {-moz-transform: scale(1)}
+  60% {-moz-transform: scale(1.1)}
+  70% {-moz-transform: scale(.9)}
+  90% {-moz-transform: scale(1.1)}
+  100% {-moz-transform: scale(1)}
+}
+
+@keyframes escala {
+  0% {transform: scale(1)}
+  60% {transform: scale(1.1)}
+  70% {transform: scale(.9)}
+  90% {transform: scale(1.1)}
+  /*90% {transform: scale(.9)}*/
+  100% {transform: scale(1)}
+}

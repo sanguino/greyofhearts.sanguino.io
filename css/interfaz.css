@@ -1,0 +1,330 @@
+body {
+	background-color: #2e1922;
+	margin: 0;
+	overflow: hidden;
+	font-family:Monospace;
+	font-size:13px;
+	text-align:center;
+	font-weight: bold;
+	text-align:center;
+	font-family: 'Exo', sans-serif;
+	color: #faf4f2;
+	font-size: 18px;
+	font-weight: 400;
+	-webkit-font-smoothing:antialiased;
+}
+
+a {
+	color:#0078ff;
+}
+
+#info {
+	position: absolute;
+	top: 50%; width: 100%;
+	padding: 5px;
+	z-index:2;
+	font-size: 20px;
+	font-weight: 200;
+	color: #faf4f2;
+}
+
+#textoLema{
+
+	position: absolute;
+	background: transparent !important;
+	top: 45px;
+	left: 50%;
+	width: 50%;
+	margin-left: -25%;
+	padding: 5px;
+	z-index: 2;
+	font-size: 18px;
+	font-weight: 400;
+	color: #faf4f2;
+
+	
+}
+
+/*// Large screens*/
+@media (max-height: 740px), (max-width: 1200px) {
+	 
+	#textoLema{
+
+		top: 5px !important;
+		left: 0% !important;
+		width: 100% !important;
+		margin-left: 0% !important;
+		font-size: 16px !important;
+	}
+
+} 
+
+@media (max-height: 480px), (max-width: 550px) {
+	 
+	#textoLema{
+		display: none !important;
+	}
+
+} 
+
+#logo
+{
+	position: absolute;
+	right:30px;
+	bottom: 10px;
+	z-index: 222;
+}
+
+#logo img{
+	border: none;
+	outline: none;
+}
+
+#linksLateral
+{
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	writing-mode: tb-rl;
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin-left: -235px;
+	font-size: 15px;
+	width: 400px;
+	display: none; 
+	z-index: 2;
+}
+
+/*
+
+	########  ######## ########    ###    ##       ##       ######## 
+	##     ## ##          ##      ## ##   ##       ##       ##       
+	##     ## ##          ##     ##   ##  ##       ##       ##       
+	##     ## ######      ##    ##     ## ##       ##       ######   
+	##     ## ##          ##    ######### ##       ##       ##       
+	##     ## ##          ##    ##     ## ##       ##       ##       
+	########  ########    ##    ##     ## ######## ######## ######## 
+
+*/
+#infoNombre
+{
+	width:100%;
+	height: 150px;
+	position: absolute;
+	top:20%;
+	margin-top: -75px;
+	text-align: center;
+	display: none;
+}
+
+@media (max-height: 400px) {
+ 	#infoNombre
+	{
+		top:25%;
+		text-align: left;
+	}
+
+	#infoFotos
+	{
+		position: absolute;
+		left: 50%;
+		margin-left: -105px;
+	}
+
+	#infoTextos
+	{
+		position: relative;
+		left: 50%;
+		margin-left: 5px;
+		top: 120px;
+	}
+
+}
+
+#infoNombre #fotoPersona
+{
+	background: url('../formulario/img/perfil.png');
+	background-repeat: no-repeat;
+    background-position: center center;
+	width:90px;
+	height:90px;
+	border-radius: 50%;
+	border: 5px solid rgba(255,255,255,.3);
+	margin: auto auto;
+	z-index: 5;
+	position: relative;
+}
+
+#infoNombre #fotoBase
+{
+	background: url('../formulario/img/perfil.png');
+	background-repeat: no-repeat;
+    background-position: center center;
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+	border: 0px solid rgba(255,255,255,.3);
+	margin: auto auto;
+	position: relative;
+	z-index: 2;
+	top:-100px;
+}
+
+#infoNombre #textoPersona
+{
+	padding-top: 16px;
+	margin-top:-112px;
+}
+
+#infoNombre #textoDepartamento
+{
+	font-size: 14px;
+	
+}
+
+#infoNombre #textoEmpresa
+{
+	font-size: 14px;
+	
+}
+
+#infoPulsa
+{
+	width:300px;
+	height: 60px;
+	position: absolute;
+	left:50%;
+	top:80%;
+	margin-left: -135px;
+	display: none;
+}
+
+#infoPulsa #numPulsa
+{
+	font-size: 26px;
+	position: relative;
+	float: left;
+	width:50px;
+	text-align: right;
+}
+
+#infoPulsa #textoPulsa
+{
+	text-align: left;
+	margin: 0 10px;
+	float: left;
+}
+
+#infoPulsa #animaPulsa
+{
+	background: url('../img/pulso.png');
+	background-repeat: repeat-x;
+    background-position: center center;
+    width: 60px;
+    height: 51px;
+    float: left;
+    margin-left: 15px;
+}
+
+/*
+ ########  ##     ##  ######   ######     ###    ########  
+ ##     ## ##     ## ##    ## ##    ##   ## ##   ##     ## 
+ ##     ## ##     ## ##       ##        ##   ##  ##     ## 
+ ########  ##     ##  ######  ##       ##     ## ########  
+ ##     ## ##     ##       ## ##       ######### ##   ##   
+ ##     ## ##     ## ##    ## ##    ## ##     ## ##    ##  
+ ########   #######   ######   ######  ##     ## ##     ## 
+*/
+
+#buscar
+{
+	width:300px;
+	height: 65px;
+	position: absolute;
+	top:20%;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: -75px;
+	text-align: center;
+	display: none;
+}
+
+#buscar #buscador
+{
+	background: transparent url('../img/lupa.png') no-repeat 6px center;
+	color: #faf4f2;
+	font-size: 14px;
+	height: 20px;
+	margin-top: 30px;
+	padding:10px;
+	border: none;
+	outline: none;
+	font-weight: 200;
+	border: 1px solid rgba(255,255,255,.8);
+	padding: 5px 5px 5px 25px;
+	width: 200px;
+	cursor: pointer;
+}
+
+#buscar #cerrar
+{
+	padding-left: 29px;
+	display: none;
+	width: 200px;
+	top: -47px;
+	position: relative;
+	overflow: hidden;
+	padding-top: 16px;
+	pointer-events: none;
+}
+
+#buscar #cerrar span
+{
+	padding-top: 4px; 
+	display: block;
+	left: 210px;
+	width: 30px;
+	height: 30px;
+	
+	position: relative;
+	font-weight: bold;
+	cursor: pointer;
+
+	pointer-events:all;
+}
+
+/*
+########  ########  ######  ######## ######## 
+##     ## ##       ##    ## ##          ##    
+##     ## ##       ##       ##          ##    
+########  ######    ######  ######      ##    
+##   ##   ##             ## ##          ##    
+##    ##  ##       ##    ## ##          ##    
+##     ## ########  ######  ########    ##
+*/
+
+a {
+}
+a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+ 
+a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+ 
+a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#preload, #info, #textoLema, #intro, #infoNombre, #infoPulsa {
+pointer-events: none;
+}
